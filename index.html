@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/9087921e2c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/AK (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <!--SECTION-1 NAVBAR AND MAINPAGE-->
+    <section class="section_1 section" id="section1">
+                <div class="container">
+                    <div class="nav_sections_options">
+                        <div id="hidden_nav">
+                            <div id="myNav" class="overlay">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <div class="overlay-content">
+                                    <div class="nav_page_">
+                                        <a class="return" href="#" onclick="scrollToSection1()">Home</a>
+                                    </div>
+                                    <div class="nav_page_">
+                                        <a class="return"  href="#" onclick="scrollToSection2()">About</a>
+                                    </div>
+                                    <!-- <div class="nav_page_">
+                                        <a class="return" href="#" onclick="scrollToSection3()">Education</a>
+                                    </div> -->
+                                    <div class="nav_page_">
+                                        <a class="return"  href="#" onclick="scrollToSection4()">Projects</a>
+                                    </div>
+                                    <div class="nav_page_">
+                                        <a class="return" href="#" onclick="scrollToSection5()">Contact</a>
+                                    </div>
+                                </div>
+                              </div>
+                              <span id="menu" style="cursor:pointer" onpointerenter="menuHover()" onpointerleave="menuHoverleave()" onclick="openNav()">&#9776; <span class="menu-tag"></span></span> 
+                        </div>
+
+                        <div class="nav_wrap_2">
+                            <div class="title_wr">
+                                <div class="title_wrapper">
+                                    <a href="index.html"><h2>A.</h2></a>
+                                </div>
+                            </div>
+                            <div class="nav_sections_options">
+                                <div class="nav_page_">
+                                    <a class="return" href="#" onclick="scrollToSection1()">Home</a>
+                                </div>
+                                <div class="nav_page_">
+                                    <a class="return"  href="#" onclick="scrollToSection2()">About</a>
+                                </div>
+                                <!-- <div class="nav_page_">
+                                    <a class="return" href="#" onclick="scrollToSection3()">Education</a>
+                                </div> -->
+                                <div class="nav_page_">
+                                    <a class="return"  href="#" onclick="scrollToSection4()">Projects</a>
+                                </div>
+                                <div class="nav_page_">
+                                    <a class="return" href="#" onclick="scrollToSection5()">Contact</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="sec_1_body">
+                        
+                        <div class="name_">ADITYA KHANNA</div>
+                        <div class="role_">SOFTWARE ENGINEER | WEB DEVELOPER</div>
+                    </div>
+                    <div id="down-button-container">
+                        <div id="down-button" onclick="scrollToNextSection()">▼</div>
+                    </div>
+                    
+                
+        </div>
+    </section>
+
+    <div class="container">
+
+    <!--SECTION-2 SKILLS-->
+    <section class="section_2 section" id="section2">
+      <div class="sec_2_head">
+        <h2>ABOUT ME</h2>
+        <h5>Front-End Developer 🧑‍💻 | Tech Enthusiast 💻</h5>
+      </div>
+
+      <div class="container">
+
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="get_to_know_me_wrapper">
+                <div class="container">
+            <h3>Get to know me!</h3>
+            <p>Hey! I'm <span class="text_bold">Aditya Khanna</span>  a Full Stack Web Developer persuing B.Tech from VIT Chennai in CSE. <br>I am a passionate third year computer science engineering student with expertise in problem solving and algorithmic thinking . I love to explore various technologies and frameworks to develop efficient and scalable solutions. With a strong foundation in data structures and algorithms , I strive to create robust and optimised code. I am constantly expanding my skills and staying up-to-date with the latest advancements in the field of Web development.</p>
+            <div class="butons_about">
+                <button class="btn_about_white" onclick="scrollToSection5()">Contact</button>
+                <button class="btn_about_black">Resume</button>
+            </div>
+        </div>
+        </div>
+        </div>
+      
+        <div class="col-12 col-sm-12 col-lg-6 col-md-6">
+      <div class="container">
+        <div class=" button_wrapper">
+            <h3>My Skills</h3>
+            <div class="row" >
+           
+            <div class="col btn_wrap_flex_border">     
+                <button class='glowing-btn'><span class='glowing-txt'>JAVASCRIPT<span class='faulty-letter'></span></span></button>
+            </div>
+
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>HTML<span class='faulty-letter'></span></span></button>
+
+            </div>
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>CSS<span class='faulty-letter'></span></span></button>
+
+            </div>
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>BOOTSTRAP<span class='faulty-letter'></span></span></button>
+            </div>
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>JAVA<span class='faulty-letter'></span></span></button>
+            </div>
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>DSA<span class='faulty-letter'></span></span></button>
+            </div>
+
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>PROBLEMSOLVING<span class='faulty-letter'></span></span></button>
+            </div>
+          
+           
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>C/C++<span class='faulty-letter'></span></span></button>
+            </div>
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>PYTHON<span class='faulty-letter'></span></span></button>
+
+            </div>
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>REACT<span class='faulty-letter'></span></span></button>
+            </div>
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>UI/UX<span class='faulty-letter'></span></span></button>
+
+            </div>
+            
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>FIGMA<span class='faulty-letter'></span></span></button>
+            </div>
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>MYSQL<span class='faulty-letter'></span></span></button>
+            </div>
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>GIT<span class='faulty-letter'></span></span></button>
+            </div>
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>WORDPRESS<span class='faulty-letter'></span></span></button>
+            </div>
+            <div class="col btn_wrap_flex_border">
+                <button class='glowing-btn'><span class='glowing-txt'>TAILWIND<span class='faulty-letter'></span></span></button>
+            </div>
+            
+            
+            
+            
+           </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </section>
+
+
+    <!-- SECTION-3 EDUCATION
+    <section class="section_3 section" id="section3">
+        <div class="sec_2_head">
+            <h2>EDUCATION</h2>
+        </div>       
+    </section> -->
+
+
+    <!--SECTION-4 PROJECTS-->
+    <section class="section_4 section" id="section4">
+        <div class="sec_2_head">
+            <h2>PROJECTS</h2>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card_wrapper">
+                    <div class="card_img img-w">
+                        <a href="verelle_about.html"><img src="images/verelle2.png" class="look-img" alt=""></a>
+                    </div>
+                    <div class="card_body">
+                        <div class="body_header_card"><a href="verelle_about.html"><h4>Verelle Fashion</h4></a></div>
+                        <p>Web Development</p>
+                        <a href="verelle_about.html"><span>Show More -></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card_wrapper">
+                    <div class="card_img img-w">
+                        <a href="petadoption_about.html"><img src="images/pet_adoption_about.png" class="look-img" alt=""></a>
+                    </div>
+                    <div class="card_body">
+                        <div class="body_header_card"><a href="petadoption_about.html"><h4>Pet Adoption</h4></a></div>
+                        <p>Web Development</p>
+                        <a href="petadoption_about.html"><span>Show More -></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card_wrapper">
+                    <div class="card_img img-w">
+                        <a href="aceindia.html"><img src="images/ace_india.png" class="look-img" alt=""></a>
+                    </div>
+                    <div class="card_body">
+                        <div class="body_header_card"><a href="aceindia.html"><h4>Ace India</h4></a></div>
+                        <p>Web Development</p>
+                        <a href="aceindia.html"><span>Show More -></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card_wrapper">
+                    <div class="card_img img-w">
+                        <a href="image-editor.html"><img src="images/image-editor.png" class="look-img" alt=""></a>
+                    </div>
+                    <div class="card_body">
+                        <div class="body_header_card"><a href="image-editor.html"><h4>Image Editor</h4></a></div>
+                        <p>Web Development</p>
+                        <a href="image-editor.html"><span>Show More -></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img id="modalImage" class="modal1-content">
+        </div>
+    </section>
+    </div>
+
+
+
+
+
+    <!--SECTION 5 CONTACT-->
+    <section class="section_5 section" id="section5">
+        <div class="sec_5_head">
+            <h2>CONTACT</h2>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 black_wrapper">
+                    <div class="div_for_flexx_alignment">
+                    <div class="get_in_touch">
+                        <h3>Get In Touch</h3>
+                        <p>
+                            Send me an email or contact me via social media!</p>
+                    </div>
+
+                    <div class="social_media">
+                        <div class="icon_wrapper">
+                            <a target="_blank" href="https://github.com/Addyrem"><i class="fa-brands fa-github fa-xl"></i> Github</a>
+                        </div>
+                        <div class="icon_wrapper">
+                           <a target="_blank" href="https://www.linkedin.com/in/aditya-khanna-14b786230/"> <i class="fa-brands fa-linkedin-in fa-xl"></i> LinkedIn</a>
+                        </div>
+                        <div class="icon_wrapper">
+                            <a target="_blank" href="https://m.me/aditya.khanna.3597789"> <i class="fa-brands fa-xl fa-facebook-messenger"></i> Messenger</a>
+                         </div>
+                         <div class="icon_wrapper">
+                            <a target="_blank" href="https://www.instagram.com/aditya.khanna07/"> <i class="fa-brands fa-xl fa-instagram"></i> Instagram</a>
+                         </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 col-12 col-md-6 column_background ">
+                        <div class="col_7_white_wrapper">
+                            <div class="get_in_touch">
+                                <h3>Send Your Message</h3>
+                                </div>
+                            <div class="container">
+                                <div class="feedback-page">
+                                    <form action="submit" id="emailForm" >
+                                    <div class="row">
+                                        
+                                          <div class="col-lg-12 col-md-12 col-sm-12 ">
+                                        <label for="subject"><h5>Subject</h5></label> 
+                                        <input type="text" id="subject" name="subject" required class="form-input" data-msg-required="Please enter the subject" >
+                                      </div>
+                                      
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-lg-12 col-md-12">
+                                        <label for="Tell Us what you think"><h5>Your Message</h5></label>
+                                        <textarea id="emailBody" name="emailBody" required style="height: auto; padding-top: 10px;" cols="30" rows="10" class="form-input" placeholder="" data-msg-required=""></textarea>
+                                        <input type="button" value="Send Email" class="btn_submit_contact quote_btn" onclick="composeEmail()">
+                                      </div>
+                                    </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <div id="scrollToTopBtn" onclick="scrollToTop()">↑</div>
+
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>
